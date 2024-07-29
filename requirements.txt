@@ -1,0 +1,8 @@
+matplotlib
+numpy
+opencv-python
+pandas
+image-similarity-measures
+scipy
+natsort
+tqdm
