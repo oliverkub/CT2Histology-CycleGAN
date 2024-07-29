@@ -27,10 +27,14 @@ Comments and some code parts have been optimised with ChatGPT-4o.
 
 ## Usage
 
-Run each Jupyter notebook separately and add the required paths. To use the final model (`latest_model_G_A.pth`), refer to the original CycleGAN repository documentation: [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+Run each Jupyter notebook separately and add the required paths. Furthermore, read `run_tmux.sh` to get information on how to run `image_metrics.py`
+
+To use the final model (`latest_model_G_A.pth`), refer to the original CycleGAN repository documentation: [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 
 ## Files
 
 - `data_preprocessing.ipynb`: Contains all steps used in this thesis to preprocess the data before training the Cycle-GAN model.
 - `latest_net_G_A.pth`: Includes the final model of this thesis. To use this, refer to the original repository: [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 - `evaluation.ipynb`: Highlights all functions used to create the plots for evaluation.
+- `image_metrics.py`: Calculates the image metrics between CT and histology images and stores them.
+- `run_tmux.sh`: Runs `image_metrics.py` in a tmux session for the whole folder.
