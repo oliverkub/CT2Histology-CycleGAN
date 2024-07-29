@@ -32,5 +32,5 @@ Run each Jupyter notebook separately and add the required paths. To use the fina
 ## Files
 
 - `data_preprocessing.ipynb`: Contains all steps used in this thesis to preprocess the data before training the Cycle-GAN model.
-- `latest_model_G_A.pth`: Includes the final model of this thesis. To use this, refer to the original repository: [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+- `latest_net_G_A.pth`: Includes the final model of this thesis. To use this, refer to the original repository: [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
 - `evaluation.ipynb`: Highlights all functions used to create the plots for evaluation.
